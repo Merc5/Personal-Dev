@@ -44,3 +44,24 @@ nav .menuToggle::before {
     box-shadow: 0 10px 0 #555, 0 -10px 0 #555;
 }
 
+nav .profile {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+nav .profile h3 {
+    text-align: end;
+    font-weight: 500;
+    line-height: 1em;
+    color: #555;
+}
+
+nav .profile h3 span {
+    font-size: 0.75em;
+    color: #777;
+}
+
