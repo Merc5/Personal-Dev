@@ -41,5 +41,6 @@ nav .menuToggle::before {
     width: 35px;
     height: 3px;
     background: #555;
+    box-shadow: 0 10px 0 #555, 0 -10px 0 #555;
 }
 
