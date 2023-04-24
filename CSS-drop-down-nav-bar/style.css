@@ -24,3 +24,15 @@ nav {
     align-items: center;
     padding: 20px;
 }
+
+nav .menuToggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
