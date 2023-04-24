@@ -29,10 +29,17 @@ nav .menuToggle {
     position: relative;
     width: 40px;
     height: 40px;
-    background: #ccc;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav .menuToggle::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background: #555;
 }
 
